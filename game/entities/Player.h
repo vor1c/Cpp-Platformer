@@ -11,6 +11,10 @@ public:
     void render(SDL_Renderer* renderer) const;
     void clampPosition();
 
+    // New methods to get the current position of the player
+    int getX() const;
+    int getY() const;
+
 private:
     SDL_Rect mRect;
     int mVelX, mVelY;

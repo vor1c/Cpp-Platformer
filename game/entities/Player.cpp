@@ -1,7 +1,8 @@
 #include "Player.h"
 
 Player::Player(int x, int y, int width, int height, int screen_width, int screen_height)
-        : mRect{x, y, width, height}, mVelX(0), mVelY(0), mScreenWidth(screen_width), mScreenHeight(screen_height) {}
+        : mRect{x, y, width, height}, mVelX(0), mVelY(0), mScreenWidth(screen_width), mScreenHeight(screen_height) {
+}
 
 void Player::handleEvent(SDL_Event& e) {
     if (e.type == SDL_KEYDOWN && e.key.repeat == 0) {
@@ -20,6 +21,15 @@ void Player::handleEvent(SDL_Event& e) {
         }
     }
 }
+
+int Player::getX() const {
+    return mRect.x;
+}
+
+int Player::getY() const {
+    return mRect.y;
+}
+
 
 void Player::update(float deltaTime) {
     mRect.x += static_cast<int>(mVelX * deltaTime);

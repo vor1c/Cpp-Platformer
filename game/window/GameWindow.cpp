@@ -1,6 +1,7 @@
 #include "GameWindow.h"
 #include <iostream>
 
+
 GameWindow::GameWindow() : window(nullptr), renderer(nullptr) {}
 
 GameWindow::~GameWindow() {
@@ -25,6 +26,7 @@ bool GameWindow::init(bool fullscreen) {
     } else {
         window = SDL_CreateWindow("Game Window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                                   800, 600, SDL_WINDOW_SHOWN);
+
     }
 
     if (!window) {

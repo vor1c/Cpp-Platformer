@@ -9,7 +9,7 @@ add_executable(${PROJECT_NAME}
         game/entities/Player.cpp
         game/window/GameWindow.cpp
         game/utils/fpscounter.h
-        game/utils/fpscounter.cpp)  # Include FPSCounter source files
+        game/utils/fpscounter.cpp game/entities/Enemy.cpp game/entities/Enemy.h)  # Include FPSCounter source files
 
 include_directories(
         ${PROJECT_SOURCE_DIR}/game
