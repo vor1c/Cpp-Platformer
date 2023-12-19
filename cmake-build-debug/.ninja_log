@@ -1,0 +1,11 @@
+# ninja log v5
+3	949	7246195216440793	CMakeFiles/Cpp-Platformer.dir/game/main.cpp.obj	1f47fd7bcd86baf2
+98	868	7243355090996283	CMakeFiles/Cpp-Platformer.dir/game/utils/fpscounter.cpp.obj	89af3fb945c647a3
+2377	3250	7246140393999213	CMakeFiles/Cpp-Platformer.dir/game/window/GameWindow.cpp.obj	bb969fd286d0ab0
+949	1305	7246195219791180	Cpp-Platformer.exe	ded2971160ec6d4b
+77	703	7246195213975903	CMakeFiles/Cpp-Platformer.dir/game/entities/Player.cpp.obj	bc3076e1330151ac
+115	1098	7246726105828755	CMakeFiles/Cpp-Platformer.dir/game/utils/fpscounter.cpp.obj	89af3fb945c647a3
+105	1105	7246726105848770	CMakeFiles/Cpp-Platformer.dir/game/entities/Player.cpp.obj	bc3076e1330151ac
+96	1109	7246726105848770	CMakeFiles/Cpp-Platformer.dir/game/window/GameWindow.cpp.obj	bb969fd286d0ab0
+1	1174	7246726106442379	CMakeFiles/Cpp-Platformer.dir/game/main.cpp.obj	1f47fd7bcd86baf2
+1174	1599	7246726110851842	Cpp-Platformer.exe	ded2971160ec6d4b

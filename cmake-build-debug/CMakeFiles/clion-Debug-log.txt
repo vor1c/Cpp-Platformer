@@ -1,0 +1,4 @@
+C:\Users\voric\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/voric/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\Coding\Cpp\Cpp-Platformer -B D:\Coding\Cpp\Cpp-Platformer\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Coding/Cpp/Cpp-Platformer/cmake-build-debug

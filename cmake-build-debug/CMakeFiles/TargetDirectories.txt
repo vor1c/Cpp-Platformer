@@ -1,0 +1,3 @@
+D:/Coding/Cpp/Cpp-Platformer/cmake-build-debug/CMakeFiles/Cpp-Platformer.dir
+D:/Coding/Cpp/Cpp-Platformer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Cpp/Cpp-Platformer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
